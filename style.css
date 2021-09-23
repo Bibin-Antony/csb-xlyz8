@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+
+.theme-holder h1 {
+  background-color: black;
+  width: 100vw;
+  margin: auto;
+  padding: 50px;
+  color: white;
+}
+
+textarea {
+  border: 2px solid black;
+  width: 70vw;
+  height: 20vh;
+  padding: 1rem;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  padding-left: 4rem;
+}
+
+#btn-translate {
+  padding: 0.4rem;
+  margin: 0rem 2rem;
+  border-radius: 20px;
+  width: 8rem;
+  background-color: rgba(240, 237, 74, 0.719);
+}
+
+.output-holder-text {
+  text-align: center;
+}
+
+.output-holder-text h1 {
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 2rem;
+}
+.output-holder {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 1rem;
+}
+
+#output-box {
+  border: 2px solid black;
+  width: 70vw;
+  height: 20vh;
+  padding: 1rem;
+}
